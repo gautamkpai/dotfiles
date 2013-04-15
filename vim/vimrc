@@ -14,4 +14,7 @@ set cursorline          "Highlight current line
 if has('gui_running')
   set lines=100         "Set window height
   set columns=120       "Set window width
+
+  set guioptions-=T     "Remove toolbar
+  set guioptions-=r     "Remove right-hand scroll bar
 endif
