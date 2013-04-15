@@ -1,2 +1,3 @@
-set nocompatible
+set nocompatible        "Run in vim mode not vi
 
+set number              "Display line numbers
