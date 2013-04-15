@@ -8,3 +8,5 @@ set shiftwidth=2
 set expandtab           "Replace tabs with spaces
 
 colorscheme railscasts
+
+set cursorline          "Highlight current line
