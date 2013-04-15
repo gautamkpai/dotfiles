@@ -1,3 +1,8 @@
 set nocompatible        "Run in vim mode not vi
 
 set number              "Display line numbers
+
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set expandtab           "Replace tabs with spaces
