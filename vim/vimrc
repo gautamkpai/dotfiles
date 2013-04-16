@@ -10,6 +10,7 @@ set expandtab           "Replace tabs with spaces
 colorscheme railscasts
 
 set cursorline          "Highlight current line
+set hidden              "Reuse Window for multiple buffers
 
 if has('gui_running')
   set lines=100         "Set window height
