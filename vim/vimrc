@@ -25,9 +25,8 @@ filetype plugin on      "Enable filetype-specific plugins
 syntax enable           "Turn on syntax highlighting.
 
 if has('gui_running')
-  set lines=100         "Set window height
-  set columns=120       "Set window width
-
   set guioptions-=T     "Remove toolbar
   set guioptions-=r     "Remove right-hand scroll bar
 endif
+
+"au GUIEnter * set lines=100 columns=120
