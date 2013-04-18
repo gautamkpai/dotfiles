@@ -5,3 +5,6 @@
 [submodule "vim/bundle/endwise"]
 	path = vim/bundle/endwise
 	url = git://github.com/tpope/vim-endwise.git
+[submodule "vim/bundle/tcomment_vim"]
+	path = vim/bundle/tcomment_vim
+	url = git://github.com/tomtom/tcomment_vim.git
