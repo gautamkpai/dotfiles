@@ -8,3 +8,6 @@
 [submodule "vim/bundle/tcomment_vim"]
 	path = vim/bundle/tcomment_vim
 	url = git://github.com/tomtom/tcomment_vim.git
+[submodule "vim/bundle/unimpaired"]
+	path = vim/bundle/unimpaired
+	url = git://github.com/tpope/vim-unimpaired.git
