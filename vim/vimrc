@@ -1,32 +1,35 @@
 call pathogen#infect()
 call pathogen#helptags()
 
-set nocompatible        "Run in vim mode not vi
+set nocompatible                "Run in vim mode not vi
 
-set number              "Display line numbers
+set number                      "Display line numbers
 
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
-set expandtab           "Replace tabs with spaces
+set expandtab                   "Replace tabs with spaces
 
 colorscheme railscasts
 
-set cursorline          "Highlight current line
-set hidden              "Reuse Window for multiple buffers
+set cursorline                  "Highlight current line
+set hidden                      "Reuse Window for multiple buffers
 
 set smartindent
 set autoindent
 
-filetype on             "Enable filetype detection
-filetype indent on      "Enable filetype-specific indenting
-filetype plugin on      "Enable filetype-specific plugins
+filetype on                     "Enable filetype detection
+filetype indent on              "Enable filetype-specific indenting
+filetype plugin on              "Enable filetype-specific plugins
 
-syntax enable           "Turn on syntax highlighting.
+syntax enable                   "Turn on syntax highlighting.
+
+set backupdir=/tmp//            "Centralized backup dir
+set directory=/tmp//            "Centralized location for swap files
 
 if has('gui_running')
-  set guioptions-=T     "Remove toolbar
-  set guioptions-=r     "Remove right-hand scroll bar
+  set guioptions-=T             "Remove toolbar
+  set guioptions-=r             "Remove right-hand scroll bar
 endif
 
 "au GUIEnter * set lines=100 columns=120
