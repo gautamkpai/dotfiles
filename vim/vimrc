@@ -24,6 +24,8 @@ filetype plugin on              "Enable filetype-specific plugins
 
 syntax enable                   "Turn on syntax highlighting.
 
+runtime macros/matchit.vim      " Load the matchit plugin.
+
 set backupdir=/tmp//            "Centralized backup dir
 set directory=/tmp//            "Centralized location for swap files
 
