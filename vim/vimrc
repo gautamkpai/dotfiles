@@ -50,7 +50,7 @@ set showcmd                     "Display incomplete commands.
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
 " Highlight trailing spaces.
-highlight ExtraWhitespace ctermbg=red guibg=red
-match ExtraWhitespace /\s\+$/
+" highlight ExtraWhitespace ctermbg=red guibg=red
+match ErrorMsg /\s\+$/
 " match                         "Disable above highlighting
 
