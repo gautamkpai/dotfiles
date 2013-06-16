@@ -10,6 +10,8 @@ set softtabstop=2
 set shiftwidth=2
 set expandtab                   "Replace tabs with spaces
 
+set t_Co=256                    "Enable 256 colors
+
 colorscheme railscasts
 
 set cursorline                  "Highlight current line
