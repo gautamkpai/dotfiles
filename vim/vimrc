@@ -54,3 +54,10 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*Cap
 match ErrorMsg /\s\+$/
 " match                         "Disable above highlighting
 
+let g:rspec_command = "!spring rspec {spec}"
+
+" Rspec.vim mappings
+map <Leader>r :!spring rspec<CR>
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
