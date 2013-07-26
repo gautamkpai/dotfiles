@@ -20,6 +20,9 @@ set hidden                      "Reuse Window for multiple buffers
 set smartindent
 set autoindent
 
+set ignorecase                  "Case-insensitive searching.
+set smartcase                   "But case-sensitive if expression contains a capital letter.
+
 filetype on                     "Enable filetype detection
 filetype indent on              "Enable filetype-specific indenting
 filetype plugin on              "Enable filetype-specific plugins
