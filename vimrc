@@ -1,7 +1,20 @@
-call pathogen#infect()
-call pathogen#helptags()
+set nocompatible               " be iMproved
+filetype off                   " required!
 
-set nocompatible                "Run in vim mode not vi
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle     " required!
+Bundle 'gmarik/vundle'
+
+" Bundles
+" colorschemes
+Bundle  "nanotech/jellybeans.vim"
+
+" filetype plugin indent on     " required!
+filetype on                     "Enable filetype detection
+filetype indent on              "Enable filetype-specific indenting
+filetype plugin on              "Enable filetype-specific plugins
 
 set number                      "Display line numbers
 
@@ -12,7 +25,7 @@ set expandtab                   "Replace tabs with spaces
 
 set t_Co=256                    "Enable 256 colors
 
-" colorscheme jellybeans
+colorscheme jellybeans
 
 set cursorline                  "Highlight current line
 set hidden                      "Reuse Window for multiple buffers
@@ -22,10 +35,6 @@ set autoindent
 
 set ignorecase                  "Case-insensitive searching.
 set smartcase                   "But case-sensitive if expression contains a capital letter.
-
-filetype on                     "Enable filetype detection
-filetype indent on              "Enable filetype-specific indenting
-filetype plugin on              "Enable filetype-specific plugins
 
 syntax enable                   "Turn on syntax highlighting.
 
