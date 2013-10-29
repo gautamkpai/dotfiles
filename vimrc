@@ -12,7 +12,7 @@ set expandtab                   "Replace tabs with spaces
 
 set t_Co=256                    "Enable 256 colors
 
-colorscheme jellybeans
+" colorscheme jellybeans
 
 set cursorline                  "Highlight current line
 set hidden                      "Reuse Window for multiple buffers
@@ -52,7 +52,7 @@ vmap <C-Down> ]egv
 set laststatus=2                "Show the status line all the time
 set showcmd                     "Display incomplete commands.
 " Useful status information at bottom of screen
-set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
+" set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
 " Highlight trailing spaces.
 highlight ExtraWhitespace ctermbg=red guibg=red
