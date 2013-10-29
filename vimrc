@@ -8,6 +8,16 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " Bundles
+Bundle "vim-ruby/vim-ruby"
+Bundle "kien/ctrlp.vim"
+Bundle "tpope/vim-fugitive"
+Bundle "tpope/vim-rails"
+Bundle "tomtom/tcomment_vim"
+Bundle "thoughtbot/vim-rspec"
+Bundle "kana/vim-textobj-user"
+Bundle "nelstrom/vim-textobj-rubyblock"
+Bundle "kchmck/vim-coffee-script"
+
 " colorschemes
 Bundle  "nanotech/jellybeans.vim"
 
