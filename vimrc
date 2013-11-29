@@ -20,6 +20,7 @@ Bundle "thoughtbot/vim-rspec"
 Bundle "kana/vim-textobj-user"
 Bundle "nelstrom/vim-textobj-rubyblock"
 Bundle "kchmck/vim-coffee-script"
+Bundle "godlygeek/tabular"
 
 " colorschemes
 Bundle  "nanotech/jellybeans.vim"
