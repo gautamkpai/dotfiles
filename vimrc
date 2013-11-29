@@ -8,13 +8,13 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " Bundles
+Bundle "tpope/vim-fugitive"
+Bundle "tpope/vim-bundler"
+Bundle "tpope/vim-rake"
 Bundle "vim-ruby/vim-ruby"
 Bundle "kien/ctrlp.vim"
-Bundle "tpope/vim-fugitive"
 Bundle "tpope/vim-rails"
-Bundle "tpope/vim-bundler"
 Bundle "tpope/vim-unimpaired"
-Bundle "tpope/rbenv-ctags"
 Bundle "tomtom/tcomment_vim"
 Bundle "thoughtbot/vim-rspec"
 Bundle "kana/vim-textobj-user"
