@@ -73,6 +73,8 @@ nmap <C-Down> ]e
 vmap <C-Up> [egv
 vmap <C-Down> ]egv
 
+nmap <Tab> <C-w><C-w>
+
 set laststatus=2                "Show the status line all the time
 set showcmd                     "Display incomplete commands.
 " Useful status information at bottom of screen
