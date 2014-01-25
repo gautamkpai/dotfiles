@@ -11,6 +11,7 @@ Bundle 'gmarik/vundle'
 Bundle "tpope/vim-fugitive"
 Bundle "tpope/vim-bundler"
 Bundle "tpope/vim-rake"
+Bundle "tpope/vim-rbenv"
 Bundle "vim-ruby/vim-ruby"
 Bundle "kien/ctrlp.vim"
 Bundle "tpope/vim-rails"
