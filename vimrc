@@ -39,6 +39,8 @@ set softtabstop=2
 set shiftwidth=2
 set expandtab                   "Replace tabs with spaces
 
+set backspace=indent,eol,start  "Backspace over everything
+
 set t_Co=256                    "Enable 256 colors
 
 colorscheme jellybeans
