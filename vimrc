@@ -64,11 +64,6 @@ runtime macros/matchit.vim      " Load the matchit plugin.
 set backupdir=/tmp//            "Centralized backup dir
 set directory=/tmp//            "Centralized location for swap files
 
-if has('gui_running')
-  set guioptions-=T             "Remove toolbar
-  set guioptions-=r             "Remove right-hand scroll bar
-endif
-
 nmap <Tab> <C-w><C-w>
 
 set laststatus=2                "Show the status line all the time
