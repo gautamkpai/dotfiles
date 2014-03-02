@@ -69,16 +69,6 @@ if has('gui_running')
   set guioptions-=r             "Remove right-hand scroll bar
 endif
 
-"au GUIEnter * set lines=100 columns=120
-
-"Bubble single line
-nmap <C-Up> [e
-nmap <C-Down> ]e
-
-"Bubble multiple lines
-vmap <C-Up> [egv
-vmap <C-Down> ]egv
-
 nmap <Tab> <C-w><C-w>
 
 set laststatus=2                "Show the status line all the time
