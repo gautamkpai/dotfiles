@@ -41,6 +41,9 @@ set expandtab                   "Replace tabs with spaces
 
 set backspace=indent,eol,start  "Backspace over everything
 
+set wildmode=longest,list,full  "bash-like tab completion.
+set wildmenu                    "first tab completes, second provides a list, third cycles through the options
+
 set t_Co=256                    "Enable 256 colors
 
 colorscheme jellybeans
