@@ -23,6 +23,7 @@ Bundle "kana/vim-textobj-user"
 Bundle "nelstrom/vim-textobj-rubyblock"
 Bundle "kchmck/vim-coffee-script"
 Bundle "godlygeek/tabular"
+Bundle "rking/ag.vim"
 
 " colorschemes
 Bundle  "nanotech/jellybeans.vim"
