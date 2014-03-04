@@ -71,6 +71,9 @@ set showcmd                     "Display incomplete commands.
 " Useful status information at bottom of screen
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
+"Highlight Search
+highlight Search ctermbg=208 ctermfg=Black cterm=NONE
+
 " Highlight trailing spaces.
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
