@@ -34,6 +34,7 @@ filetype indent on              "Enable filetype-specific indenting
 filetype plugin on              "Enable filetype-specific plugins
 
 set number                      "Display line numbers
+set history=50                  "More than the default 20
 
 set tabstop=2
 set softtabstop=2
