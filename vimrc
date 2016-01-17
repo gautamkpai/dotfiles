@@ -109,3 +109,7 @@ command! TagFiles :call EchoTags()
 function! EchoTags()
   echo join(split(&tags, ","), "\n")
 endfunction
+
+" Disable arrow keys
+" map <up> <nop>
+" map <down> <nop>
