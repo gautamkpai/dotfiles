@@ -31,6 +31,9 @@ Bundle "pearofducks/ansible-vim"
 " vim-plug plugin manager
 call plug#begin('~/.vim/plugged')
 
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+
 " colorschemes
 Plug  'nanotech/jellybeans.vim'
 
@@ -126,3 +129,5 @@ endfunction
 " Disable arrow keys
 " map <up> <nop>
 " map <down> <nop>
+
+nnoremap .. :FZF<CR>
