@@ -96,6 +96,7 @@ highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 " match                         "Disable above highlighting
 
+execute "set colorcolumn=" . join(range(121,335), ',')
 let g:rspec_command = "!spring rspec {spec}"
 
 " Rspec.vim mappings
