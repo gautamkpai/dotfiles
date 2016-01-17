@@ -25,7 +25,6 @@ Bundle "kchmck/vim-coffee-script"
 Bundle "godlygeek/tabular"
 Bundle "rking/ag.vim"
 Bundle "ngmy/vim-rubocop"
-Bundle "scrooloose/nerdtree"
 Bundle "pearofducks/ansible-vim"
 
 " vim-plug plugin manager
@@ -33,6 +32,9 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+
+" On-demand loading
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
 " colorschemes
 Plug  'nanotech/jellybeans.vim'
