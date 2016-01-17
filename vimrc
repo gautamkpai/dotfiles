@@ -58,6 +58,8 @@ set autoindent
 
 set ignorecase                  "Case-insensitive searching.
 set smartcase                   "But case-sensitive if expression contains a capital letter.
+set incsearch                   "Search as you type
+set hlsearch                    "Higlight search matches
 
 syntax enable                   "Turn on syntax highlighting.
 
