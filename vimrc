@@ -28,11 +28,12 @@ Bundle "ngmy/vim-rubocop"
 Bundle "scrooloose/nerdtree"
 Bundle "pearofducks/ansible-vim"
 
-" colorschemes
-Bundle  "nanotech/jellybeans.vim"
-
 " vim-plug plugin manager
 call plug#begin('~/.vim/plugged')
+
+" colorschemes
+Plug  'nanotech/jellybeans.vim'
+
 " Add plugins to &runtimepath
 call plug#end()
 
