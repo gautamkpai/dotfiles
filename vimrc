@@ -31,6 +31,11 @@ Bundle "pearofducks/ansible-vim"
 " colorschemes
 Bundle  "nanotech/jellybeans.vim"
 
+" vim-plug plugin manager
+call plug#begin('~/.vim/plugged')
+" Add plugins to &runtimepath
+call plug#end()
+
 " filetype plugin indent on     " required!
 filetype on                     "Enable filetype detection
 filetype indent on              "Enable filetype-specific indenting
