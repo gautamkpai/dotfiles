@@ -24,6 +24,9 @@ Bundle "nelstrom/vim-textobj-rubyblock"
 Bundle "kchmck/vim-coffee-script"
 Bundle "godlygeek/tabular"
 Bundle "rking/ag.vim"
+Bundle "ngmy/vim-rubocop"
+Bundle "scrooloose/nerdtree"
+Bundle "pearofducks/ansible-vim"
 
 " colorschemes
 Bundle  "nanotech/jellybeans.vim"
@@ -32,6 +35,7 @@ Bundle  "nanotech/jellybeans.vim"
 filetype on                     "Enable filetype detection
 filetype indent on              "Enable filetype-specific indenting
 filetype plugin on              "Enable filetype-specific plugins
+autocmd FileType yaml setl indentkeys-=<:>
 
 set number                      "Display line numbers
 set history=50                  "More than the default 20
@@ -78,10 +82,11 @@ endif
 nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 
 " bind \ (backward slash) to grep shortcut
-command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
+command! -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
 nnoremap \ :Ag<SPACE>
 
 nmap <Tab> <C-w><C-w>
+nnoremap <Space><Space> :noh<CR>
 
 set laststatus=2                "Show the status line all the time
 set showcmd                     "Display incomplete commands.
@@ -96,7 +101,9 @@ highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 " match                         "Disable above highlighting
 
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 execute "set colorcolumn=" . join(range(121,335), ',')
+
 let g:rspec_command = "!spring rspec {spec}"
 
 " Rspec.vim mappings
