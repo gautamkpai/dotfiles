@@ -8,16 +8,13 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " Bundles
-Bundle "tpope/vim-fugitive"
 Bundle "tpope/vim-bundler"
 Bundle "tpope/vim-rake"
 Bundle "tpope/vim-rbenv"
 Bundle "vim-ruby/vim-ruby"
-Bundle "kien/ctrlp.vim"
 Bundle "tpope/vim-rails"
 Bundle "tpope/vim-unimpaired"
 Bundle "tpope/vim-surround"
-Bundle "tomtom/tcomment_vim"
 Bundle "thoughtbot/vim-rspec"
 Bundle "kana/vim-textobj-user"
 Bundle "nelstrom/vim-textobj-rubyblock"
@@ -33,6 +30,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'mustache/vim-mustache-handlebars'
+Plug 'tpope/vim-fugitive'
+Plug 'tomtom/tcomment_vim'
 
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
