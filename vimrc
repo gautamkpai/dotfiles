@@ -18,7 +18,6 @@ Bundle "tpope/vim-surround"
 Bundle "thoughtbot/vim-rspec"
 Bundle "kana/vim-textobj-user"
 Bundle "nelstrom/vim-textobj-rubyblock"
-Bundle "kchmck/vim-coffee-script"
 Bundle "godlygeek/tabular"
 Bundle "rking/ag.vim"
 Bundle "ngmy/vim-rubocop"
@@ -35,6 +34,7 @@ Plug 'tomtom/tcomment_vim'
 
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 
 " colorschemes
 Plug  'nanotech/jellybeans.vim'
