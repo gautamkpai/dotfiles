@@ -1,28 +1,6 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-" let Vundle manage Vundle     " required!
-Bundle 'gmarik/vundle'
-
-" Bundles
-Bundle "tpope/vim-bundler"
-Bundle "tpope/vim-rake"
-Bundle "tpope/vim-rbenv"
-Bundle "vim-ruby/vim-ruby"
-Bundle "tpope/vim-rails"
-Bundle "tpope/vim-unimpaired"
-Bundle "tpope/vim-surround"
-Bundle "thoughtbot/vim-rspec"
-Bundle "kana/vim-textobj-user"
-Bundle "nelstrom/vim-textobj-rubyblock"
-Bundle "godlygeek/tabular"
-Bundle "rking/ag.vim"
-Bundle "ngmy/vim-rubocop"
-Bundle "pearofducks/ansible-vim"
-
 " vim-plug plugin manager
 call plug#begin('~/.vim/plugged')
 
@@ -31,13 +9,29 @@ Plug 'junegunn/fzf.vim'
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'tpope/vim-fugitive'
 Plug 'tomtom/tcomment_vim'
+Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-surround'
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
+Plug 'kana/vim-textobj-user'
+Plug 'nelstrom/vim-textobj-rubyblock'
 
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
+Plug 'rking/ag.vim', { 'on': 'Ag' }
 
 " colorschemes
 Plug  'nanotech/jellybeans.vim'
+
+" Disabled plugins
+" Plug 'godlygeek/tabular'
+" Plug 'tpope/vim-bundler'
+" Plug 'tpope/vim-rake'
+" Plug 'tpope/vim-rbenv'
+" Plug 'ngmy/vim-rubocop'
+" Plug 'thoughtbot/vim-rspec'
+" Plug 'pearofducks/ansible-vim'
 
 " Add plugins to &runtimepath
 call plug#end()
