@@ -55,7 +55,7 @@ set backspace=indent,eol,start  "Backspace over everything
 set wildmode=longest,list,full  "bash-like tab completion.
 set wildmenu                    "first tab completes, second provides a list, third cycles through the options
 
-set t_Co=256                    "Enable 256 colors
+set termguicolors               "Enable 24bit true colour support ("888" colours (aka 16 milion))
 
 colorscheme jellybeans
 
