@@ -23,6 +23,7 @@ Plug 'rking/ag.vim', { 'on': 'Ag' }
 
 " colorschemes
 Plug  'nanotech/jellybeans.vim'
+Plug  'morhetz/gruvbox'
 
 " Disabled plugins
 " Plug 'godlygeek/tabular'
@@ -57,7 +58,11 @@ set wildmenu                    "first tab completes, second provides a list, th
 
 set termguicolors               "Enable 24bit true colour support ("888" colours (aka 16 milion))
 
-colorscheme jellybeans
+" colorscheme jellybeans
+
+let g:gruvbox_contrast_dark = 'hard'
+let g:gruvbox_improved_strings = '1'
+colorscheme gruvbox
 
 set cursorline                  "Highlight current line
 set hidden                      "Reuse Window for multiple buffers
