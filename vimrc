@@ -82,6 +82,10 @@ runtime macros/matchit.vim      " Load the matchit plugin.
 set backupdir=/tmp//            "Centralized backup dir
 set directory=/tmp//            "Centralized location for swap files
 
+" Quickly edit/reload the vimrc file
+nnoremap <leader>ev :e $MYVIMRC<CR>
+nnoremap <leader>sv :so $MYVIMRC<CR>
+
 " The Silver Searcher
 if executable('ag')
   " Use ag over grep
