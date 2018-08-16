@@ -26,6 +26,9 @@ Plug 'rking/ag.vim', { 'on': 'Ag' }
 Plug  'nanotech/jellybeans.vim'
 Plug 'jpo/vim-railscasts-theme'
 Plug  'morhetz/gruvbox'
+Plug 'ayu-theme/ayu-vim'
+Plug 'rakr/vim-one'
+Plug 'ajh17/spacegray.vim'
 
 " Disabled plugins
 " Plug 'godlygeek/tabular'
@@ -62,9 +65,16 @@ set termguicolors               "Enable 24bit true colour support ("888" colours
 
 colorscheme railscasts
 
-let g:gruvbox_contrast_dark = 'hard'
-let g:gruvbox_improved_strings = '1'
-colorscheme gruvbox
+" colorscheme one               "Need to set bg dark after this line
+" set background=dark           "Explicitly tell vim that the bg is dark
+
+" let g:gruvbox_contrast_dark = 'hard'  "Options: hard, medium or soft
+" let g:gruvbox_improved_strings = '1'
+" let g:gruvbox_italic = '1'
+" colorscheme gruvbox
+
+" let ayucolor='dark'           "Options: light, mirage or dark
+" colorscheme ayu
 
 set cursorline                  "Highlight current line
 set hidden                      "Reuse Window for multiple buffers
