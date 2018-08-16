@@ -24,6 +24,7 @@ Plug 'rking/ag.vim', { 'on': 'Ag' }
 
 " colorschemes
 Plug  'nanotech/jellybeans.vim'
+Plug 'jpo/vim-railscasts-theme'
 Plug  'morhetz/gruvbox'
 
 " Disabled plugins
@@ -59,7 +60,7 @@ set wildmenu                    "first tab completes, second provides a list, th
 
 set termguicolors               "Enable 24bit true colour support ("888" colours (aka 16 milion))
 
-" colorscheme jellybeans
+colorscheme railscasts
 
 let g:gruvbox_contrast_dark = 'hard'
 let g:gruvbox_improved_strings = '1'
