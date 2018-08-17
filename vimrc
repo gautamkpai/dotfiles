@@ -147,7 +147,11 @@ endfunction
 " map <up> <nop>
 " map <down> <nop>
 
-nnoremap .. :FZF<CR>
+" Add file preview option to fzf fuzzy file search
+" nnoremap .. :FZF<CR>
+let g:fzf_files_options =
+    \ '--preview "highlight -O truecolor -s base16/railscasts --force {} 2> /dev/null"'
+nnoremap .. :Files!<CR>
 
 function! s:buflist()
   redir => ls
