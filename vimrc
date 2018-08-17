@@ -18,7 +18,6 @@ Plug 'nelstrom/vim-textobj-rubyblock'
 Plug 'elixir-editors/vim-elixir'
 
 " On-demand loading
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 Plug 'rking/ag.vim', { 'on': 'Ag' }
 
@@ -31,6 +30,7 @@ Plug 'rakr/vim-one'
 Plug 'ajh17/spacegray.vim'
 
 " Disabled plugins
+" Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 " Plug 'godlygeek/tabular'
 " Plug 'tpope/vim-bundler'
 " Plug 'tpope/vim-rake'
