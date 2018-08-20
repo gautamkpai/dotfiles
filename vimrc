@@ -16,6 +16,7 @@ Plug 'tpope/vim-rails'
 Plug 'kana/vim-textobj-user'
 Plug 'nelstrom/vim-textobj-rubyblock'
 Plug 'elixir-editors/vim-elixir'
+Plug 'vim-airline/vim-airline'
 
 " On-demand loading
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
@@ -106,8 +107,6 @@ nnoremap <Space><Space> :noh<CR>
 
 set laststatus=2                "Show the status line all the time
 set showcmd                     "Display incomplete commands.
-" Useful status information at bottom of screen
-set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
 "Highlight Search
 highlight Search ctermbg=208 ctermfg=Black cterm=NONE
