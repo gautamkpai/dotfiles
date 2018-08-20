@@ -47,6 +47,10 @@ filetype indent on              "Enable filetype-specific indenting
 filetype plugin on              "Enable filetype-specific plugins
 autocmd FileType yaml setl indentkeys-=<:>
 
+" Line-wise scrolling is painfully slow for ruby files when using cursorline
+" For on-demand cursorline toggling use `yoc`
+autocmd Filetype ruby setlocal nocursorline
+
 set number                      "Display line numbers
 set history=50                  "More than the default 20
 
