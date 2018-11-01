@@ -13,15 +13,6 @@ def sym_link(location)
   end
 end
 
-namespace "vim" do
-  task "setup" do
-
-    %w(vimrc vim).each do |file|
-      sym_link file
-    end
-  end
-end
-
 namespace "githooks" do
   task "setup" do
 
