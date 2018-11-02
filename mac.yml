@@ -1,0 +1,17 @@
+---
+
+- name: Setup macbook
+  hosts: localhost
+
+  tasks:
+  - name: Install bare necessities
+    homebrew:
+      name: '{{ item }}'
+    with_items:
+      - zsh
+
+  - name: Install oh-my-zsh
+    shell: sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    args:
+      creates: ~/.oh-my-zsh
+
