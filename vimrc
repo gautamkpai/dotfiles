@@ -169,3 +169,5 @@ command! -bang -nargs=* Rg
   \   <bang>0)
 nnoremap \ :Rg!<SPACE>
 
+nnoremap <leader>w :w<cr>
+nnoremap <leader>q :q<cr>
