@@ -22,3 +22,12 @@ namespace "githooks" do
     end
   end
 end
+
+namespace "gitignore" do
+  task "setup" do
+
+    if sym_link "gitignore_global"
+      sh "git config --global core.excludesfile '~/.gitignore_global'"
+    end
+  end
+end
