@@ -27,7 +27,7 @@ Plug 'jpo/vim-railscasts-theme'
 Plug  'morhetz/gruvbox'
 Plug 'ayu-theme/ayu-vim'
 Plug 'rakr/vim-one'
-Plug 'ajh17/spacegray.vim'
+Plug 'ackyshake/spacegray.vim', { 'branch': 'main' }
 
 " Disabled plugins
 " Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
