@@ -17,6 +17,7 @@ Plug 'kana/vim-textobj-user'
 Plug 'nelstrom/vim-textobj-rubyblock'
 Plug 'elixir-editors/vim-elixir'
 Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-vinegar'
 
 " On-demand loading
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
