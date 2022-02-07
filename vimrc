@@ -21,6 +21,7 @@ Plug 'tpope/vim-vinegar'
 
 " On-demand loading
 Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
+Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 
 " colorschemes
 Plug  'nanotech/jellybeans.vim'
