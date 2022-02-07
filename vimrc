@@ -29,7 +29,6 @@ Plug 'jpo/vim-railscasts-theme'
 Plug  'morhetz/gruvbox'
 Plug 'ayu-theme/ayu-vim'
 Plug 'rakr/vim-one'
-Plug 'ackyshake/spacegray.vim', { 'branch': 'main' }
 Plug 'arzg/vim-colors-xcode'
 Plug 'severij/vadelma'
 Plug 'cormacrelf/vim-colors-github'
