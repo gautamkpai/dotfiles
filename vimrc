@@ -72,7 +72,7 @@ set wildmenu                    "first tab completes, second provides a list, th
 
 set termguicolors               "Enable 24bit true colour support ("888" colours (aka 16 milion))
 
-colorscheme railscasts
+colorscheme github
 
 " colorscheme one               "Need to set bg dark after this line
 " set background=dark           "Explicitly tell vim that the bg is dark
