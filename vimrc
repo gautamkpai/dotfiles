@@ -4,24 +4,26 @@ filetype off                   " required!
 " vim-plug plugin manager
 call plug#begin('~/.vim/plugged')
 
+" Common basic functionalities
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-Plug 'mustache/vim-mustache-handlebars'
 Plug 'tpope/vim-fugitive'
 Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-surround'
-Plug 'vim-ruby/vim-ruby'
-Plug 'tpope/vim-rails'
-Plug 'kana/vim-textobj-user'
-Plug 'nelstrom/vim-textobj-rubyblock'
-Plug 'elixir-editors/vim-elixir'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-vinegar'
 
+" Language support
 " On-demand loading
-Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+" Plug 'vim-ruby/vim-ruby'
+" Plug 'tpope/vim-rails'
+" Plug 'kana/vim-textobj-user'
+" Plug 'nelstrom/vim-textobj-rubyblock'
+" Plug 'elixir-editors/vim-elixir', { 'for': 'elixir' }
+" Plug 'mustache/vim-mustache-handlebars'
+" Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
 
 " colorschemes
 Plug  'nanotech/jellybeans.vim'
