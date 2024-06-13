@@ -35,3 +35,4 @@ $ ansible-playbook vim.yml
 - ⌃ - U+2303
 - ⎈ - U+2388
 - ⌥ - U+2325
+- ⌘ - U+2318
