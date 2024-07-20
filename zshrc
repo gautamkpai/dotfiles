@@ -100,11 +100,34 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Put individual kubeconfig files in ~/.kube/custom-contexts dir
+# Function to append all kubeconfig files in the "config" directory to KUBECONFIG
+init_kubeconfig() {
+    local kubeconfig_dir="$HOME/.kube/custom-contexts"
+    local kubeconfigs="$HOME/.kube/config"
+
+    for file in "$kubeconfig_dir"/*; do
+        if [ -f "$file" ]; then
+            kubeconfigs="$kubeconfigs:$file"
+        fi
+    done
+
+    # Remove the leading colon if any files were found
+    if [ -n "$kubeconfigs" ]; then
+        kubeconfigs="${kubeconfigs#:}"
+        export KUBECONFIG="${KUBECONFIG:+$KUBECONFIG:}$kubeconfigs"
+    fi
+}
+
+
 # zsh
 source <(fzf --zsh)
 
 # kubectl autocomplete
 [[ $commands[kubectl] ]] && source <(kubectl completion zsh)
+
+# kubeconfig
+init_kubeconfig
 
 # Enable zsh-syntax-highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
