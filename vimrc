@@ -17,6 +17,7 @@ Plug 'tpope/vim-vinegar'
 " Language support
 " On-demand loading
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+Plug 'hashivim/vim-terraform'
 " Plug 'vim-ruby/vim-ruby'
 " Plug 'tpope/vim-rails'
 " Plug 'kana/vim-textobj-user'
@@ -178,3 +179,5 @@ nnoremap \ :Rg!<SPACE>
 
 nnoremap <leader>w :w<cr>
 nnoremap <leader>q :q<cr>
+
+let g:terraform_fmt_on_save = '1'
