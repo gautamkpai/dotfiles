@@ -132,4 +132,4 @@ init_kubeconfig
 # Enable zsh-syntax-highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /Users/gautampai/.config/op/plugins.sh
+# source /Users/gautampai/.config/op/plugins.sh
