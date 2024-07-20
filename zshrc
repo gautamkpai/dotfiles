@@ -103,6 +103,9 @@ source $ZSH/oh-my-zsh.sh
 # zsh
 source <(fzf --zsh)
 
+# kubectl autocomplete
+[[ $commands[kubectl] ]] && source <(kubectl completion zsh)
+
 # Enable zsh-syntax-highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
