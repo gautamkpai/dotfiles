@@ -29,6 +29,15 @@ $ ansible-playbook vim.yml
 - Mark read / unread - ⌘ + ⇧ + U
 - Toggle sidebar - ⌘ + ⌃ + S
 
+### iTerm
+
+- clear current line:
+    - Ctrl+A Ctrl+K
+    - Ctrl+C
+- Jump word forward: Esc f or Ctrl-[ f
+- Jump word backward: Esc b or Ctrl-[ b
+- kill-word: Esc D
+- kill-word-backword: Ctrl+W
 
 ### Unicode values (Ctl V + unicode)
 - ⇧ - U+21E7
@@ -36,3 +45,4 @@ $ ansible-playbook vim.yml
 - ⎈ - U+2388
 - ⌥ - U+2325
 - ⌘ - U+2318
+
