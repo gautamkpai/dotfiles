@@ -99,6 +99,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias python="$(pyenv which python)"
+alias pip="$(pyenv which pip)"
 
 # Put individual kubeconfig files in ~/.kube/custom-contexts dir
 # Function to append all kubeconfig files in the "config" directory to KUBECONFIG
