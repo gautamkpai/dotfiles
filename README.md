@@ -21,9 +21,9 @@ Installs vim from homebrew and symlinks vim config files.
 $ ansible-playbook vim.yml
 ```
 
-### Keyboard shortcuts quick ref
+## Keyboard shortcuts quick ref
 
-## Slack
+### Slack
 
 - Jump to all Unreads - ⌘ + ⇧ + A
 - Toggle left sidebar - ⌘ + ⇧ + D
@@ -32,7 +32,7 @@ $ ansible-playbook vim.yml
 - Go back in history - ⌘ + [
 - Go forwards in history - ⌘ + ]
 
-## Apple Mail
+### Apple Mail
 
 - Fetch new mails(refresh) - ⌘ + ⇧ + N
 - Mark read / unread - ⌘ + ⇧ + U
@@ -54,4 +54,3 @@ $ ansible-playbook vim.yml
 - ⎈ - U+2388
 - ⌥ - U+2325
 - ⌘ - U+2318
-
