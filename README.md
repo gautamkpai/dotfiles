@@ -23,6 +23,15 @@ $ ansible-playbook vim.yml
 
 ### Keyboard shortcuts quick ref
 
+## Slack
+
+- Jump to all Unreads - ⌘ + ⇧ + A
+- Toggle left sidebar - ⌘ + ⇧ + D
+- Toggle right sidebar - ⌘ + .
+- Toggle mute on a huddle - ⌘ + ⇧ + Space
+- Go back in history - ⌘ + [
+- Go forwards in history - ⌘ + ]
+
 ## Apple Mail
 
 - Fetch new mails(refresh) - ⌘ + ⇧ + N
