@@ -43,6 +43,8 @@ $ ansible-playbook vim.yml
 - clear current line:
     - Ctrl+A Ctrl+K
     - Ctrl+C
+- Jump to beginning of line: fn + ←
+- Jump to end of line: fn + →
 - Jump word forward: Esc f or Ctrl-[ f
 - Jump word backward: Esc b or Ctrl-[ b
 - kill-word: Esc D
