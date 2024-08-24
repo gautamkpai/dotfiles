@@ -33,7 +33,8 @@ $ ansible-playbook vim.yml
 - Go forwards in history - ⌘ + ]
 
 ### Apple Mail
-
+|||
+|---|---|
 | Fetch new mails(refresh) | ⌘ + ⇧ + N |
 | Mark read / unread | ⌘ + ⇧ + U |
 | Toggle sidebar | ⌘ + ⌃ + S |
