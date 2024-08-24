@@ -34,9 +34,9 @@ $ ansible-playbook vim.yml
 
 ### Apple Mail
 
-- Fetch new mails(refresh) - ⌘ + ⇧ + N
-- Mark read / unread - ⌘ + ⇧ + U
-- Toggle sidebar - ⌘ + ⌃ + S
+| Fetch new mails(refresh) | ⌘ + ⇧ + N |
+| Mark read / unread | ⌘ + ⇧ + U |
+| Toggle sidebar | ⌘ + ⌃ + S |
 
 ### iTerm
 
