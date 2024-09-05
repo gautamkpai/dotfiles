@@ -122,6 +122,8 @@ init_kubeconfig() {
     fi
 }
 
+# rust
+source "$HOME/.cargo/env"
 
 # zsh
 source <(fzf --zsh)
