@@ -18,6 +18,7 @@ Plug 'tpope/vim-vinegar'
 " On-demand loading
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 Plug 'hashivim/vim-terraform'
+Plug 'grafana/vim-alloy'
 " Plug 'vim-ruby/vim-ruby'
 " Plug 'tpope/vim-rails'
 " Plug 'kana/vim-textobj-user'
