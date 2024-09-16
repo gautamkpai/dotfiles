@@ -36,6 +36,9 @@ Plug 'arzg/vim-colors-xcode'
 Plug 'severij/vadelma'
 Plug 'cormacrelf/vim-colors-github'
 Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'habamax/vim-polar'
+Plug 'habamax/vim-habanight'
+Plug 'habamax/vim-gruvbit'
 
 " Disabled plugins
 " Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
