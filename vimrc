@@ -17,6 +17,7 @@ Plug 'tpope/vim-vinegar'
 " Language support
 " On-demand loading
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+Plug 'rust-lang/rust.vim'
 Plug 'hashivim/vim-terraform'
 Plug 'grafana/vim-alloy'
 " Plug 'vim-ruby/vim-ruby'
