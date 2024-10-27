@@ -13,6 +13,7 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-vinegar'
+Plug 'preservim/tagbar'
 
 " Language support
 " On-demand loading
