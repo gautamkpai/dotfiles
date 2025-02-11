@@ -18,6 +18,7 @@ Plug 'preservim/tagbar'
 " Language support
 " On-demand loading
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'rust-lang/rust.vim'
 Plug 'hashivim/vim-terraform'
 Plug 'grafana/vim-alloy'
