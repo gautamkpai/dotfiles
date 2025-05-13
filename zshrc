@@ -104,6 +104,14 @@ alias vimconfig="vim ~/.vimrc"
 alias python="$(pyenv which python)"
 alias pip="$(pyenv which pip)"
 
+# set GOPATH and update PATH to include GOPATH/bin
+export GOPATH=$HOME/src/go
+export PATH=$PATH:$GOPATH/bin
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
 # Put individual kubeconfig files in ~/.kube/custom-contexts dir
 # Function to append all kubeconfig files in the "config" directory to KUBECONFIG
 init_kubeconfig() {
