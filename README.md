@@ -13,9 +13,9 @@ Installs
 $ ansible-playbook mac.yml
 ```
 
-### vim setup
+### (n)vim setup
 
-Installs vim from homebrew and symlinks vim config files.
+Installs vim & nvim from homebrew and symlinks config files.
 
 ```
 $ ansible-playbook vim.yml
