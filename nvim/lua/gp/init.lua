@@ -1,2 +1,2 @@
-require("gp.remap")
 require("gp.options")
+require("gp.remap")
