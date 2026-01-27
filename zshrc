@@ -103,6 +103,7 @@ alias zshconfig="vim ~/.zshrc"
 alias vimconfig="vim ~/.vimrc"
 alias python="$(pyenv which python)"
 alias pip="$(pyenv which pip)"
+alias cl="claude" # Claude Code CLI
 
 # set GOPATH and update PATH to include GOPATH/bin
 export GOPATH=$HOME/src/go
