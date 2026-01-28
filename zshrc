@@ -144,6 +144,9 @@ source <(fzf --zsh)
 # kubeconfig
 init_kubeconfig
 
+# Source secrets (API keys, tokens, etc.)
+[ -f "$HOME/.zsh_secrets" ] && source "$HOME/.zsh_secrets"
+
 # Enable zsh-syntax-highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
