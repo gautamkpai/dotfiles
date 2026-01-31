@@ -22,16 +22,6 @@ namespace "vim" do
   end
 end
 
-namespace "githooks" do
-  task "setup" do
-
-    if sym_link "git_template"
-      sh "git config --global init.templatedir '~/.git_template'"
-      sh "git config --global alias.ctags '!.git/hooks/ctags'"
-    end
-  end
-end
-
 namespace "gitignore" do
   task "setup" do
 
