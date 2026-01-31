@@ -5,7 +5,7 @@ dotfiles
 
 Installs
 
-- Google Chrome, iterm2
+- Google Chrome
 - zsh with oh-my-zsh
 - Dropbox, vlc, caffeine, simplenote, the-unarchiver
 
@@ -40,7 +40,7 @@ $ ansible-playbook vim.yml
 | Archive | ⌘ + ⌃ + A |
 | Toggle sidebar | ⌘ + ⌃ + S |
 
-### iTerm
+## Terminal
 
 - clear current line:
     - Ctrl+A Ctrl+K
@@ -63,5 +63,3 @@ $ ansible-playbook vim.yml
 - ⌘ - U+2318
 
 ## Misc
-
-- fzf shortcut in vim keeps throwing a warning: https://gitlab.com/gnachman/iterm2/-/issues/9275
