@@ -104,6 +104,7 @@ alias vimconfig="vim ~/.vimrc"
 alias python="$(pyenv which python)"
 alias pip="$(pyenv which pip)"
 alias cl="claude" # Claude Code CLI
+alias pnx="pnpm dlx"
 
 # set GOPATH and update PATH to include GOPATH/bin
 export GOPATH=$HOME/src/go
@@ -156,3 +157,12 @@ source /opt/homebrew/share/zsh-history-substring-search/zsh-history-substring-se
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/Users/gautampai/.lmstudio/bin"
 # End of LM Studio CLI section
+
+
+# pnpm
+export PNPM_HOME="/Users/gautampai/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME/bin:"*) ;;
+  *) export PATH="$PNPM_HOME/bin:$PATH" ;;
+esac
+# pnpm end
