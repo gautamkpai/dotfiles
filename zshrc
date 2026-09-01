@@ -104,6 +104,9 @@ alias vimconfig="vim ~/.vimrc"
 alias python="$(pyenv which python)"
 alias pip="$(pyenv which pip)"
 alias cl="claude" # Claude Code CLI
+alias nbs="netbird status"
+alias nbd="netbird down"
+alias nbu="netbird up"
 alias pnx="pnpm dlx"
 
 # set GOPATH and update PATH to include GOPATH/bin
